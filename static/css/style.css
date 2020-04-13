@@ -3,7 +3,7 @@ html, body, .wrapper {
 }
 .wrapper {
     z-index: 1;
-    background: url("/static/img/background.jpg");
+    background: url("https://cdn.jsdelivr.net/gh/LittleJake/blog-static-files@Portfolio/static/img/background.jpg");
     -webkit-background-size: cover;
     background-size: cover;
 }
