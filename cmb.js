@@ -1,1 +1,0 @@
-$.ajax({url:"/cmb.json",type:"get",success:function(res){for(var i=0;i<res.data.length;i++){$(".post-content").append("<h3>"+moment(res.data[i].time).format('YYYY-MM-DD HH:mm:ss')+"</h3>");$(".post-content").append(res.data[i].richContent+"<br>");}},error:function(res){console.log("error")}});
